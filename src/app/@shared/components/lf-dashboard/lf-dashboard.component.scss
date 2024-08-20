@@ -1,0 +1,103 @@
+.dash-container {
+  background: var(--card-bg);
+  .c-bg-color {
+    background: var(--bg-secondary);
+    align-items: center;
+    div {
+      cursor: pointer;
+    }
+
+    fa-icon {
+      border-radius: 50%;
+      padding: 3px;
+      font-size: 16px;
+      background: var(--bg-sidebar);
+      width: 30px;
+      height: 30px;
+      text-align: center;
+    }
+  }
+  .c-text {
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--text-color);
+  }
+  .c-input-height {
+    height: 35px;
+  }
+  .c-input-border {
+    input {
+      border: none;
+      background: var(--bg-secondary);
+      width: 100%;
+      color: var(--text-color);
+    }
+    :focus {
+      outline: none !important;
+    }
+  }
+  ::ng-deep {
+    .c-searchbar .input-group {
+      flex-wrap: unset;
+    }
+    .c-search-dropdown {
+      .dropdown-toggle::after {
+        display: none;
+      }
+      .dropdown-menu {
+        border: 1px solid var(--link-color);
+        border-radius: 5px;
+        max-height: 332px;
+        overflow-y: scroll;
+      }
+      .dropdown-menu .dropdown-item {
+        font-size: 16px;
+      }
+    }
+    .c-button svg path {
+      fill: var(--blue-text);
+    }
+
+    @media (max-width: 770px) {
+      .osahan-navbar-search {
+        .form-control {
+          max-width: unset !important;
+          width: unset !important;
+        }
+      }
+    }
+  }
+
+  .advertise-image-container {
+    flex: 1 1 300px;
+    max-width: 350px;
+    min-width: 200px;
+    max-height: 150px;
+    min-height: 150px;
+
+    @media (min-width: 1040px) and (max-width:1635px) {
+      max-width: 205px;
+      min-width: 150px;
+      max-height: 100px;
+      min-height: 100px;
+    }
+    @media (min-width: 520px) and (max-width:685px) {
+      max-width: 240px;
+      min-width: 175px;
+      max-height: 100px;
+      min-height: 100px;
+    }
+    @media (max-width: 520px) {
+      max-width: 160px;
+      min-width: 100px;
+      max-height: 70px;
+      min-height: 70px;
+    }
+  }
+  
+  .advertise-image {
+    object-fit: fill;
+    image-rendering: -webkit-optimize-contrast;
+    border: 1px solid var(--font-icon-color);
+  }
+}

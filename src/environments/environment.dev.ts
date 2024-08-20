@@ -4,9 +4,9 @@
 
 const frontendUrl = 'https://tube.islandguide.tours/';
 const backendUrl = 'https://api.islandguide.tours/';
-const loginUrl = 'https://dev.islandguide.tours/login';
+const loginUrl = 'https://islandguide.tours/login';
 const wasabiUrl = 'https://freedom-social.s3.us-east-1.wasabisys.com/';
-const logoutUrl = 'https://dev.islandguide.tours/logout';
+const logoutUrl = 'https://islandguide.tours/logout';
 
 
 

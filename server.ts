@@ -83,7 +83,7 @@ export function app(): express.Express {
           title: 'Islandguide.tours',
           description:
             'The Umbrella platform for All tours based projects worldwide',
-          image: 'https://tube.islandguide.tours/assets/banner/freedom-buzz-high-res.jpeg',
+          image: 'https://tube.islandguide.tours/assets/banner/IslandGuide.jpg',
           site: 'https://tube.islandguide.tours/',
           url: 'https://tube.islandguide.tours/' + params,
           keywords: 'Islandguide.tours',
@@ -127,7 +127,7 @@ export function app(): express.Express {
           const talent = {
             name: post?.title || post?.albumname || 'Islandguide.tours Post',
             description: pdhtml?.textContent || 'Post content',
-            image: post?.thumbfilename || post?.metaimage || post?.imageUrl || 'https://tube.islandguide.tours/assets/FreedomTube-logo.png',
+            image: post?.thumbfilename || post?.metaimage || post?.imageUrl || 'https://tube.islandguide.tours/assets/IslandGuide.tours.png',
           };
           seo.title = talent.name;
           seo.description = strip_html_tags(talent.description);

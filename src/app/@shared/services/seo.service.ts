@@ -69,7 +69,7 @@ export class SeoService {
     }
 
     if (!tagValue.image) {
-      tagValue.image = 'https://islandguide.tours/assets/images/banner/freedom-buzz-high-res.jpeg';
+      tagValue.image = 'https://islandguide.tours/assets/images/banner/IslandGuide.jpg';
     }
 
     this.meta.updateTag({

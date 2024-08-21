@@ -82,7 +82,7 @@ export function app(): express.Express {
         var seo: any = {
           title: 'Islandguide.tours',
           description:
-            'The Umbrella platform for All tours based projects worldwide',
+            'Find Island Destinations Worldwide and Find Island Guides and Talk One-on-One Before Hiring',
           image: 'https://tube.islandguide.tours/assets/banner/IslandGuide.jpg',
           site: 'https://tube.islandguide.tours/',
           url: 'https://tube.islandguide.tours/' + params,

@@ -59,8 +59,10 @@
           </div> -->
       </li>
     </ul>
-    <p #noChannelFound class="text-center mt-5">
-      No featured channels are currently available.
-    </p>
+    <ng-template #noChannelFound>
+      <p class="text-center mt-5">
+        No featured channels are currently available.
+      </p>
+    </ng-template>
   </li>
 </ul>
